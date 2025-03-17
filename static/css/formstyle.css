@@ -1,0 +1,7 @@
+input,option,button,select{
+	font-size: large;
+}
+
+select{
+	width: 150px;
+}

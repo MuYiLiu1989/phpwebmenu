@@ -1,0 +1,21 @@
+table{
+	margin: 5px;
+	border: solid 2px;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+td,th{
+	padding: 4px;
+	border: solid 2px;
+	font-size: large;
+}
+
+caption{
+	margin: 5px;
+	font-size: x-large;
+}
+
+.oneclass{
+	float: left;
+}

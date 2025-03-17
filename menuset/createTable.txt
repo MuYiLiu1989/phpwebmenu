@@ -1,0 +1,5 @@
+create table menu(
+id int primary key auto_increment,
+name varchar(40),
+price int,
+category varchar(20));
