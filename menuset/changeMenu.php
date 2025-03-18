@@ -11,7 +11,7 @@
 
 
 	<body>
-		<form action="/mywork/menuset/changeMenu.php" method="get" style="font-size: larger;">
+		<form method="get" style="font-size: larger;">
 		請選擇操作：
 		<input type="radio" name="operate" value="new">新增(Create)
 		<input type="radio" name="operate" value="menu">列出菜單(Read)
@@ -20,7 +20,7 @@
 		<input type="radio" name="operate" value="order">列出訂單(ListOrders)	
 		<input type="submit" value="提交" style="position:relative; left: 20px;">
 		</form>
-		<form method="post" action="/mywork">
+		<form method="post" action="../index.php">
 			<input type="submit" value="回首頁">
 		</form>
 <?php 

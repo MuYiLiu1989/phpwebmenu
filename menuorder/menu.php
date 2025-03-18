@@ -11,7 +11,7 @@
 
 
 	<body>
-		<form method="post" action="/mywork">
+		<form method="post" action="../index.php">
 			<input type="submit" value="回首頁">
 		</form>
 		<h2>請選擇好個別餐點的數量後先按訂購加進購物車，之後再一起結帳</h2>
@@ -92,7 +92,7 @@ $mysqli->close();
 
 ?>
 <form method="post" action="cart.php" style="position: relative; left: 30px; top:20px;"><input type='submit' value='查看購物車'></form>
-<form action="../sessionend.php" style="position: relative; left: 30px; top:20px;"><input type='submit' value='清除購物車'></form>
+<form action="sessionend.php" style="position: relative; left: 30px; top:20px;"><input type='submit' value='清除購物車'></form>
 </body>
 </html>
 

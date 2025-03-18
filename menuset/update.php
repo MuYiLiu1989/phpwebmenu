@@ -11,7 +11,7 @@
 
 
   <body>
-    <form action="/mywork/menuset/changeMenu.php" method="get" style="font-size: larger;">
+    <form action="changeMenu.php" method="get" style="font-size: larger;">
     請選擇操作：
     <input type="radio" name="operate" value="new">新增(Create)
     <input type="radio" name="operate" value="list">列出全部(Read)
